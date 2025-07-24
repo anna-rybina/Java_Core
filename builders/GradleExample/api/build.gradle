@@ -1,0 +1,12 @@
+plugins {
+    id 'application'
+}
+
+dependencies {
+    implementation project(':db')
+    implementation project(':service')
+}
+
+application {
+    mainClass = 'ru.netology.api.Main'
+}
